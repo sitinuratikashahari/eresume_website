@@ -5,13 +5,49 @@ body{
     background: url(images/background.jpg);
     }
 
+body{margin:0;}
+
+ul{
+    list-style-type: none;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    text-shadow: 4px 4px 7px#3f3b37;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f3b37;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.acitve){
+    background-color: black
+}
+
+.active{
+    background-color:#ffdb35;
+}
+
 h1{
     text-align: center;
-    text-shadow:5px 5px 11px #3f3b37;
+    text-shadow:9px 9px 15px #3f3b37;
     font-family: Trebuchet MS;
     font-size: 80px;
     color: #ffdb35;
-    margin-top: 40px; 
+    margin-top: 100px; 
 }
 
 img{
@@ -24,7 +60,7 @@ img{
 
 .square{
 	height: 10px;
-	width: 1531px;
+	width: 1536px;
 	background-color: black;
     margin-top: -10px;
     margin-left: -20px;
@@ -47,6 +83,17 @@ img{
     display: table;
     }
 
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
 </style>
 </head>
 
@@ -55,71 +102,113 @@ img{
 <div class="square"></div>
 
 <body>
+
+    <ul>
+        <li><a class="active" href="contact.html">CONTACT</a></li>
+        <li><a class="active" href="gallery2.html">GALLERY</a></li>
+        <li><a class="active" href="experience.html">EXPERIENCE</a></li>
+        <li><a class="active" href="education.html">EDUCATION</a></li>
+        <li><a class="active" href="skills.html">SKILLS</a></li>
+        <li><a class="active" href="biodata.html">BIODATA</a></li>
+        <li><a class="active" href="index.html">HOME</a></li>
+        
+    </ul>
+
 <img src="images/logo.jpg" alt="Logo" style="width:100px; height:100px; margin-right:45px; ">
 
 <div class="row">
     <div class="column">
+        <div class="zoom">
         <img src="images/classonline.jpg" alt="classonline" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/dekan.jpg" alt="dekan" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/discussion2.jpg" alt="discussion2" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/iftarevent.jpg" alt="iftarevent" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/event.jpg" alt="event" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/emcee.jpg" alt="emcee" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/meeting.jpg" alt="meeting" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/meeting2.jpg" alt="meeting2" style="width:99%">
+        </div>
     </div>
     
     <div class="column">
+        <div class="zoom">
         <img src="images/meeting3.jpg" alt="meeting3" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/outsideproject.jpg" alt="outsideproject" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/event2.jpg" alt="event2" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/sitevisit.jpg" alt="sitevisit" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/classit.jpg" alt="classit" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/club.jpg" alt="club" style="width:99%">
+        </div>
     </div>
 
     <div class="column">
+        <div class="zoom">
         <img src="images/kor.jpg" alt="kor" style="width:99%">
+        </div>
     </div>
-
 </div>
 
 <p style="text-align:center; background-color: #ffdb35;font-size: 20px;">&copy COPYRIGHT SITI NUR ATIKA BINTI SHAHARI 2022</p>
+
 </body>
 </html>

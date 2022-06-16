@@ -5,13 +5,49 @@ body{
     background: url(images/background.jpg);
     }
 
+body{margin:0;}
+
+ul{
+    list-style-type: none;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    text-shadow: 4px 4px 7px#3f3b37;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f3b37;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.acitve){
+    background-color: black
+}
+
+.active{
+    background-color:#ffdb35;
+}
+
 h1{
     text-align: center;
     text-shadow:5px 5px 11px #3f3b37;
     font-family: Trebuchet MS;
     font-size: 80px;
     color: #ffdb35;
-    margin-top: 40px; 
+    margin-top: 100px; 
 }
 
 img{
@@ -24,24 +60,16 @@ img{
 
 .square{
 	height: 10px;
-	width: 1531px;
+	width: 1538px;
 	background-color: black;
     margin-top: -10px;
     margin-left: -20px;
 }
 
-
-
-ul{
-    text-align: center;
-    font-family: Times New Roman;
-    font-size: 25px;
-    color: black;
-    margin-right: 30px;
-    }
-
 div.center{
     text-align: center;
+    font-size: 20px;
+    font-family: Trebuchet MS;
 }
 
 </style>
@@ -52,23 +80,34 @@ div.center{
 <div class="square"></div>
 
 <body>
+
+<ul>
+    <li><a class="active" href="contact.html">CONTACT</a></li>
+    <li><a class="active" href="gallery2.html">GALLERY</a></li>
+    <li><a class="active" href="experience.html">EXPERIENCE</a></li>
+    <li><a class="active" href="education.html">EDUCATION</a></li>
+    <li><a class="active" href="skills.html">SKILLS</a></li>
+    <li><a class="active" href="biodata.html">BIODATA</a></li>
+    <li><a class="active" href="index.html">HOME</a></li>
+</ul>
+
 <img src="images/logo.jpg" alt="Logo" style="width:100px; height:100px; margin-right:45px;">
 
 
-<ul style="list-style-type:none;">
-    <li><b>Name: Siti Nur Atika binti Shahari</b></li><br>
-    <li><b>Age: 21 years old</b></li><br>
-    <li><b>Gender: Female</b></li><br>
-    <li><b>Date of birth: 6th April 2001</b></li><br>
-    <li><b>Place of birth: Hospital Besar Daerah Kluang, Johor</b></li><br>
-    <li><b>Home:Tanah Merah, Kelantan</b></li><br>
-    <li><b>Citizenship: Malaysian</b></li><br>
-    <li><b>Races: Malay</b></li><br>
-    <li><b>Status: Single</b></li><br>
-    <li><b>Hobby: Reading</b></li><br>
-    <li><b>Soft skills: Good communication skill, problem-solving skill and working well in a team</b></li><br>
-    <li><b>Motto: No matter what happens, we need to face it</b></li><br>
-</ul>
+<div class="center">
+    <p><b>Name: Siti Nur Atika binti Shahari</b></p>
+    <p><b>Age: 21 years old</b></p>
+    <p><b>Gender: Female</b></p>
+    <p><b>Date of birth: 6th April 2001</b></p>
+    <p><b>Place of birth: Hospital Besar Daerah Kluang, Johor</b></p>
+    <p><b>Home: Tanah Merah, Kelantan</b></p>
+    <p><b>Citizenship: Malaysian</b></p>
+    <p><b>Races: Malay</b></p>
+    <p><b>Status: Single</b></p>
+    <p><b>Hobby: Reading</b></p>
+    <p><b>Soft Skills: Good communication skill, problem-solving skill and working well in a team</b></p>
+    <p><b>Motto: No matter what happens, we need to face it</b></p>
+</div>
 
 <div class="center">
     <video controls>

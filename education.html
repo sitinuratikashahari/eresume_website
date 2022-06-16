@@ -5,18 +5,54 @@ body{
     background: url(images/background.jpg);
     }
 
+    body{margin:0;}
+
+ul{
+    list-style-type: none;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    text-shadow: 4px 4px 7px#3f3b37;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3f3b37;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.acitve){
+    background-color: black
+}
+
+.active{
+    background-color:#ffdb35;
+}
+
 h1{
     text-align: center;
     text-shadow:5px 5px 11px #3f3b37;
     font-family: Trebuchet MS;
     font-size: 80px;
     color: #ffdb35;
-    margin-top: 40px; 
+    margin-top: 100px; 
 }
 
 img{
     float: left;
-    margin-top: -150px;
+    margin-top: -170px;
     margin-bottom: 20px;
     margin-left: 20px;
     display: block;
@@ -24,7 +60,7 @@ img{
 
 .square{
 	height: 10px;
-	width: 1531px;
+	width: 1538px;
 	background-color: black;
     margin-top: -10px;
     margin-left: -20px;
@@ -60,6 +96,17 @@ tr:hover {background-color:lightgoldenrodyellow;}
 <div class="square"></div><br>
 
 <body>
+
+<ul>
+    <li><a class="active" href="contact.html">CONTACT</a></li>
+    <li><a class="active" href="gallery2.html">GALLERY</a></li>
+    <li><a class="active" href="experience.html">EXPERIENCE</a></li>
+    <li><a class="active" href="education.html">EDUCATION</a></li>
+    <li><a class="active" href="skills.html">SKILLS</a></li>
+    <li><a class="active" href="biodata.html">BIODATA</a></li>
+    <li><a class="active" href="index.html">HOME</a></li>
+        
+    </ul>
 <img src="images/logo.jpg" alt="Logo" style="width:100px; height:100px; margin-right:45px; ">
 
 <table class="center">
